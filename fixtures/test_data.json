@@ -1,0 +1,114 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-11-08T03:38:00.157Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "BookTag object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-11-08T03:39:34.328Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╒р",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-11-08T03:41:16.676Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "╒р",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"Book volume\", \"object\": \"First Volume\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-11-08T03:42:43.249Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "First Volume",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"Book chapter\", \"object\": \"Chapter of First Volume\"}}, {\"added\": {\"name\": \"Book chapter\", \"object\": \"Chapter of First Volume\"}}]"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ohucbf3yjvw0ce216ez9xgmswfdn5tzy",
+    "fields": {
+      "session_data": ".eJxVjDkOwjAUBe_iGln2905JnzNY3xsOIFuKkwpxdxIpBbRvZt6beNzW6reRFz8nciWcXH63gPGZ2wHSA9u909jbusyBHgo96aBTT_l1O92_g4qj7nVMGUEzbpkI0iE4AAVaCVaMVAVNUk47iwa4DcmoqIIobDfAFhDWSvL5Ar5YNo0:1osFQe:J6QzaVJ6V02640q71ruCbdosOnqhq8ANUDomG-R5JfI",
+      "expire_date": "2022-11-22T03:37:36.237Z"
+    }
+  },
+  {
+    "model": "books.booktag",
+    "pk": 1,
+    "fields": {
+      "name": "rock"
+    }
+  },
+  {
+    "model": "books.booktitle",
+    "pk": 1,
+    "fields": {
+      "name_ru": "╒р",
+      "name_en": "Ha",
+      "name_alternative": "Ha",
+      "description": "Some title",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "books.bookvolume",
+    "pk": 1,
+    "fields": {
+      "title": 1,
+      "name": "First Volume",
+      "price": 100,
+      "number": 1
+    }
+  },
+  {
+    "model": "books.bookchapter",
+    "pk": 1,
+    "fields": {
+      "volume": 1,
+      "number": 1.0,
+      "content": "Its first chapter",
+      "views": 6,
+      "likes": 3
+    }
+  },
+  {
+    "model": "books.bookchapter",
+    "pk": 2,
+    "fields": {
+      "volume": 1,
+      "number": 2.0,
+      "content": "its second chapter",
+      "views": 0,
+      "likes": 0
+    }
+  }
+]
